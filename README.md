@@ -3,11 +3,13 @@ A tool used to generate cpp structs based on nlomann/json
 
 ## 快速开始
 ### 生成cpp文件
-为了方便使用，基于tkinter做了一个界面，打包成了一个EXE工具。目前该工具只支持包含外层节点的JSON数据格式。
-1. 打开Json2cppTool.exe
-2. 填入JSON数据或者选择JSON数据文件
-3. 选择输出路径
-4. 点击生成
+为了方便使用，基于tkinter做了一个界面，可以用Pyinstaller或者pyApp等打包成对应平台的可执行程序方便使用。目前该工具只支持包含外层节点的JSON数据格式。
+1. cd python
+2. pip install -r requirements.txt
+3. python json2cppTool.py
+4. 填入JSON数据或者选择JSON数据文件
+5. 选择输出路径
+6. 点击生成
 
 JSON数据如下：
 ```json
