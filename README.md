@@ -1,5 +1,5 @@
 # json2cppTool
-A tool used to generate cpp structs based on nlomann/json
+A tool used to generate cpp structs based on [nlohmann/json](https://github.com/nlohmann/json)
 
 ## 快速开始
 ### 生成cpp文件
