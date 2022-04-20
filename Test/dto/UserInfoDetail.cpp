@@ -3,9 +3,8 @@
 //
 // -- generated class for jsoncpp
 //
-#include "stdafx.h"
-
-#include "../../nlohmann/json.hpp"
+#include "def.h"
+#include "json.hpp"
 
 #include "UserInfoDetail.h"
 
